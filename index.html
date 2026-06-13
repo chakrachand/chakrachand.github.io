@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scaling Laws for Water Entry into Surface Seal Cavities</title>
 
   <meta name="citation_title" content="Scaling Laws for Water Entry into Surface Seal Cavities">
@@ -11,120 +13,183 @@
   <meta name="citation_doi" content="10.12794/metadc2356191">
   <meta name="citation_pdf_url" content="https://chakrachand.github.io/chand-thesis-2024.pdf">
   <meta name="description" content="Master's thesis by Chakra Bahadur Chand on scaling laws for water entry into surface seal cavities, University of North Texas, July 2024.">
+  <link rel="canonical" href="https://chakrachand.github.io/">
 
   <style>
     body {
-      max-width: 950px;
-      margin: 40px auto;
-      padding: 30px;
+      margin: 0;
+      padding: 0;
       font-family: Arial, Helvetica, sans-serif;
       line-height: 1.6;
       color: #222;
-      background-color: #f7f9fc;
+      background: linear-gradient(180deg, #eef3f8 0%, #f8fafc 100%);
     }
 
-    h1 {
-      color: #1f3a5f;
-      border-bottom: 3px solid #1f3a5f;
-      padding-bottom: 12px;
-      margin-bottom: 25px;
+    .page {
+      max-width: 980px;
+      margin: 40px auto;
+      padding: 24px;
+    }
+
+    .header {
+      background-color: #1f3a5f;
+      color: white;
+      padding: 32px;
+      border-radius: 12px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 30px;
+      line-height: 1.25;
+    }
+
+    .header p {
+      margin-top: 12px;
+      margin-bottom: 0;
+      font-size: 17px;
+      color: #e5edf7;
+    }
+
+    .card {
+      background-color: white;
+      border: 1px solid #d8dee9;
+      border-radius: 10px;
+      padding: 24px;
+      margin-bottom: 22px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
     }
 
     h2 {
       color: #1f3a5f;
-      margin-top: 35px;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 6px;
+      margin-top: 0;
+      border-bottom: 1px solid #d8dee9;
+      padding-bottom: 8px;
     }
 
     h3 {
       color: #333;
-      margin-top: 22px;
+      margin-top: 18px;
     }
 
-    p {
+    .metadata p {
+      margin: 8px 0;
       font-size: 16px;
-      margin-bottom: 14px;
     }
 
     a {
       color: #0056b3;
       text-decoration: none;
+      word-break: break-word;
     }
 
     a:hover {
       text-decoration: underline;
     }
 
-    a[href$=".pdf"] {
+    .button {
       display: inline-block;
       background-color: #1f3a5f;
       color: white;
-      padding: 10px 16px;
+      padding: 11px 18px;
       border-radius: 6px;
-      margin-top: 5px;
+      margin-top: 8px;
+      font-weight: bold;
     }
 
-    a[href$=".pdf"]:hover {
+    .button:hover {
       background-color: #15304f;
       text-decoration: none;
     }
 
-    em {
-      color: #111;
-    }
-
-    .info-box {
-      background-color: #ffffff;
-      border: 1px solid #d8dee9;
-      border-radius: 8px;
-      padding: 18px;
-      margin-bottom: 25px;
-    }
-
     .citation-box {
-      background-color: #ffffff;
+      background-color: #f8fafc;
       border-left: 5px solid #1f3a5f;
       padding: 16px 18px;
       margin-bottom: 18px;
       border-radius: 6px;
     }
 
+    .citation-box p {
+      margin-bottom: 0;
+    }
+
     footer {
-      margin-top: 45px;
-      padding-top: 15px;
-      border-top: 1px solid #ccc;
+      margin-top: 30px;
+      padding: 18px;
+      text-align: center;
       font-size: 14px;
       color: #555;
     }
+
+    @media (max-width: 700px) {
+      .page {
+        margin: 15px auto;
+        padding: 14px;
+      }
+
+      .header {
+        padding: 22px;
+      }
+
+      .header h1 {
+        font-size: 24px;
+      }
+
+      .card {
+        padding: 18px;
+      }
+    }
   </style>
+
 </head>
 
 <body>
+  <div class="page">
+
+```
+<header class="header">
   <h1>Scaling Laws for Water Entry into Surface Seal Cavities</h1>
+  <p>Master’s thesis by Chakra Bahadur Chand, University of North Texas, July 2024</p>
+</header>
 
-  <div class="info-box">
-    <p><strong>Author:</strong> Chakra Bahadur Chand</p>
-    <p><strong>Year:</strong> 2024</p>
-    <p><strong>Institution:</strong> University of North Texas</p>
-    <p><strong>Work type:</strong> Master’s thesis</p>
-    <p><strong>DOI:</strong> <a href="https://doi.org/10.12794/metadc2356191">10.12794/metadc2356191</a></p>
-  </div>
+<section class="card metadata">
+  <h2>Thesis information</h2>
+  <p><strong>Author:</strong> Chakra Bahadur Chand</p>
+  <p><strong>Publication date:</strong> July 2024</p>
+  <p><strong>Institution:</strong> University of North Texas</p>
+  <p><strong>Location:</strong> Denton, Texas</p>
+  <p><strong>Work type:</strong> Master’s thesis</p>
+  <p><strong>DOI:</strong> <a href="https://doi.org/10.12794/metadc2356191">10.12794/metadc2356191</a></p>
+</section>
 
+<section class="card">
   <h2>Official thesis record</h2>
+  <p>
+    The official record for this thesis is available through the University of North Texas Digital Library.
+  </p>
   <p>
     <a href="https://digital.library.unt.edu/ark:/67531/metadc2356191/">
       University of North Texas Digital Library thesis record
     </a>
   </p>
+</section>
 
+<section class="card">
   <h2>PDF</h2>
   <p>
-    <a href="chand-thesis-2024.pdf">
+    A searchable compressed PDF version is provided below for accessibility and indexing.
+  </p>
+  <p>
+    <a class="button" href="chand-thesis-2024.pdf">
       Download searchable compressed PDF
     </a>
   </p>
+</section>
 
+<section class="card">
   <h2>Abstract</h2>
   <p>
     Splash and surface craters (cavities) are ubiquitous phenomena when a mass impacts an air-liquid interface, penetrating the liquid phase from the air side—a process known as water entry. Depending on the impact velocity, the formed splash and cavity might result in four types of water entry: quasi-static, shallow, deep, and surface seal. Although numerous studies have been conducted to investigate different types of water entry, surface seal water entry is not well understood yet due to the complex interaction of the splash curtain with the cavity.
@@ -137,7 +202,9 @@
   <p>
     We propose new scaling laws for pressure and time regarding surface seal cavities, and we also explore the pressure, velocity, and vorticity distributions inside and outside the air cavity, alongside the characteristics of splash dynamics.
   </p>
+</section>
 
+<section class="card">
   <h2>Suggested citations</h2>
 
   <div class="citation-box">
@@ -156,9 +223,13 @@
       <a href="https://digital.library.unt.edu">https://digital.library.unt.edu</a>.
     </p>
   </div>
+</section>
 
-  <footer>
-    This page provides a public academic record, official repository link, DOI, abstract, and searchable PDF access for the thesis.
-  </footer>
+<footer>
+  This page provides a public academic record, official repository link, DOI, abstract, citation information, and searchable PDF access for the thesis.
+</footer>
+```
+
+  </div>
 </body>
 </html>
